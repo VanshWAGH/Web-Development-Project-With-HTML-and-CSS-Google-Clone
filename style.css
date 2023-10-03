@@ -164,11 +164,16 @@ a{
     color: rgb(23, 105, 227);
     font-size: 10px;
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+} 
 footer{
-    margin-top: 80px;
-    background-color: hsl(210, 13%, 94%);
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-top: 80px; 
+    background-color: hsl(210, 13%, 94%);  
+    margin-top: auto; 
+
 }
 .country{
     width: 100%;
